@@ -1,0 +1,200 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #7e7e7f;
+    letter-spacing: .06em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Titillium Web', sans-serif;
+    color: #1a1a1a;
+}
+
+.bg-light {background-color: #ffffff !important;}
+.bg-grey {background-color: #f7f7f8;}
+
+.navbar {
+
+    min-height: 80px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 2);
+}
+section{
+    padding: 100px 0;
+}
+
+/* Formulario */
+/*Color de los textos de los formularios*/
+
+:root{
+    --colorTextos: #49454567;
+}
+form{
+    background:#f7f7f8;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px; /* Redondea los bordes*/
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8); /* Agregar sombra al borde*/
+    margin: auto;
+    font-size: 20px;
+}
+form .grupo{
+    position: relative;
+    margin: 5px;
+}
+input{
+    padding: 8px 8px 8px 2px;
+    display: block;
+    font-size: 20px;
+    border-bottom: 1px solid var(--colorTextos);
+    resize: none;
+    
+    
+}
+textarea{
+    font-size: 20px;
+    display: block;
+    border-bottom: 1px solid var(--colorTextos);
+}
+input:focus,textarea:focus{
+    outline: none;
+    color: rgb(94, 93, 93);
+}
+.btn-primary{
+    font-size: 18px;
+    cursor: pointer;
+    color: aquamarine;
+    margin: 10px auto;
+}
+
+.divider{
+    border-top: 1px solid #dbdbdb;
+
+}
+#about{
+    background: transparent;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 58px;
+    min-width: 160px;
+}
+.logo {
+
+    min-width: 140px;
+    max-width: 160px;
+   
+}
+
+.ion-logo-facebook{
+    color: #3b5998;
+}
+.ion-logo-twitter{
+    color: #00aced;
+}
+.ion-logo-instagram{
+color: #517fa4;
+}
+.ion-logo-youtube{
+    color: #bb0000;
+}
+.ion-logo-linkedin{
+    color:#7e7e7f;
+}
+.ion-logo-twitch{
+    color: cadetblue;
+}
+.ion-logo-facebook:hover,
+.ion-logo-twitter:hover,
+.ion-logo-linkedin:hover,
+.ion-logo-instagram:hover,
+.ion-logo-youtube:hover,
+.ion-logo-twich:hover{    
+    color: #d5d5d5;
+    font-size: 50px;
+}
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-linkedin,
+.ion-logo-instagram,
+.ion-logo-youtube
+    {    
+   
+    font-size: 50px;
+    }
+
+.social a{
+    font-size: 3.5em;
+    padding: 3rem;
+    align-content: center;
+    align-items: center;
+}
+.fa-code{
+    color: #e54d26;
+    }
+    .fa-bold{
+        color: #563d7c;
+    }
+    .fa-css3{
+        color: #2163af;
+    }
+    .fa-vuejs{
+        color: green;
+    }
+    .fa-js{
+        color: yellow;
+    }
+    .fa-laravel{
+        color: firebrick;
+    }
+
+    .fa-code, .fa-bold, .fa-css3, .fa-js, .fa-laravel, .fa-vuejs{
+        font-size: 2em;
+        margin: 1rem;
+    }
+
+    /*-----------------------EFECTOS SERVICES SECTION----------------------*/
+    .fa-bold:hover{
+        transition: all 3s;
+        transform: translateY(-20px) !important;
+    }
+    .fa-code:hover{
+        transition: all 3s;
+       transform: rotate(360deg);
+    }
+    .fa-css3:hover{
+        
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+    }
+    .fa-js:hover{
+        transition: all 3s;
+        transform: scale(1.5);
+    }
+    .fa-vuejs:hover{
+        transition-duration: 3s;
+        transform: rotateX(256deg);
+    }
+    .fa-laravel:hover{
+        transition: all 1s;
+        transform: rotateZ(-360deg);   
+    }
+        /*-----------------------FIN EFECTOS SERVICES SECTION----------------------*/
+
+         /*-----------------------INICIO EFECTOS CONTACT SECTION----------------------*/
+         
+         #contact .img-fluid:hover{
+            transition: all 3s;
+            transform: rotateX(360deg);
+         }
+
+         /*-----------------------FIN EFECTOS CONTACT SECTION----------------------*/
+         /*-----------------------INICIO EFECTOS TEAM SECTION----------------------*/
+
+         #team .img-fluid:hover{
+
+            transform: scale(0.5);
+         }
+      
+        
